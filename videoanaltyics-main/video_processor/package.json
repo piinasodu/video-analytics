@@ -1,0 +1,26 @@
+{
+  "name": "video-processor",
+  "version": "1.0.0",
+  "description": "Video stream processing service with Kafka integration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "kafkajs": "^2.2.4",
+    "axios": "^1.6.1",
+    "opencv4nodejs": "^5.11.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "socket.io": "^4.7.2",
+    "ws": "^8.14.2",
+    "rtsp-stream": "^0.0.10",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
